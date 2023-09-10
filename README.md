@@ -9,11 +9,8 @@ Welcome to the WorkIndia Round 1 Task repository! This project is a ReactJS appl
 
 ## Introduction
 
-In this project, we have created a highly scalable and maintainable ReactJS application to tackle WorkIndia's Round 1 Task. The application showcases the power of React and utilizes best coding practices to create a robust and efficient solution.
+In this project, I have created a highly scalable and maintainable ReactJS application to tackle WorkIndia's Round 1 Task. The application showcases the power of React and utilizes best coding practices to create a robust and efficient solution.
 
-## Usage
-
-Provide instructions on how to use your project. Include details on how to run it locally, any configuration that might be needed, and any other relevant information that users may need to get started.
 
 ```bash
 # Clone the repository
