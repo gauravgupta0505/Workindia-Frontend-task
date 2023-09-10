@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.column {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  min-width: 250px;
+  background-color: #f8f8f8;
+}
+
+.candidates-column {
+  margin-top: 20px;
+}
+
+.candidate-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.bullet-point {
+  margin-right: 10px;
+}
+
+/* Add more styling as needed */
