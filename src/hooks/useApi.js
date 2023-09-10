@@ -12,7 +12,7 @@ export const useApi = () => {
       .get(getDataApi())
       .then((res) => {
         const data = res.data.data;
-      
+        console.log('Fetched')
         setCandidatesData(data);
       })
       .catch((err) => {
@@ -21,5 +21,5 @@ export const useApi = () => {
       .finally(() => {});
   };
 
-  return { candidatesData, getData };
+  return { candidatesData, getData, setCandidatesData };
 };
