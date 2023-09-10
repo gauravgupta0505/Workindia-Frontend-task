@@ -4,17 +4,10 @@
   padding: 20px;
 }
 
-.column {
-  flex: 1;
-  padding: 10px;
-  margin: 10px;
-  min-width: 250px;
+.bullet-point {
+  margin-right: 10px;
 }
 
-.candidates-column {
-  margin-top: 20px;
-
-}
 
 .candidate-card {
   display: flex;
@@ -26,8 +19,16 @@
   border-radius: 10px;
 }
 
-.bullet-point {
-  margin-right: 10px;
+.candidates-column {
+  margin-top: 20px;
+
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  margin: 10px;
+  min-width: 250px;
 }
 
 .flex {
@@ -43,4 +44,3 @@
   letter-spacing: 0.1rem;
   margin-top: 0;
 }
-/* Add more styling as needed */

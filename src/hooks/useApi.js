@@ -4,7 +4,9 @@ import { getDataApi } from "../utils/constants/api";
 import { useState } from "react";
 
 export const useApi = () => {
+  
   const [candidatesData, setCandidatesData] = useState([]);
+  
   const getData = async () => {
     await axios
       .get(getDataApi())

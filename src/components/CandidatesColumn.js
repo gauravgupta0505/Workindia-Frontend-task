@@ -1,10 +1,10 @@
 import React from "react";
 import CandidateCard from "./CandidateCard";
+
 function CandidatesColumn({ title, status, candidates }) {
-      const filteredCandidates = candidates?.filter(
-      (candidate) => candidate.status === status
-    );
-    // console.log(candidates)
+  const filteredCandidates = candidates?.filter(
+    (candidate) => candidate.status === status
+  );
 
   return (
     <div className="candidates-column">
