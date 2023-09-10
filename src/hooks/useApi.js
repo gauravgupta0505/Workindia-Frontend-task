@@ -5,17 +5,18 @@ import { useState } from "react";
 
 export const useApi = () => {
   const [candidatesData, setCandidatesData] = useState([]);
-  const getData = () => {
-    axios
+  const getData = async () => {
+    await axios
       .get(getDataApi())
       .then((res) => {
-        const data = res.data;
-        console.log(data);
+        const data = res.data.data;
+      
         setCandidatesData(data);
       })
       .catch((err) => {
         console.log(err);
-      });
+      })
+      .finally(() => {});
   };
 
   return { candidatesData, getData };

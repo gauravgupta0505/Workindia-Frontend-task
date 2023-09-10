@@ -6,27 +6,41 @@
 
 .column {
   flex: 1;
-  border: 1px solid #ccc;
   padding: 10px;
   margin: 10px;
   min-width: 250px;
-  background-color: #f8f8f8;
 }
 
 .candidates-column {
   margin-top: 20px;
+
 }
 
 .candidate-card {
   display: flex;
   align-items: center;
   border: 1px solid #ddd;
-  padding: 10px;
-  margin: 5px 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 1rem;
+  margin: 20px 0;
+  border-radius: 10px;
 }
 
 .bullet-point {
   margin-right: 10px;
 }
 
+.flex {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 1rem;
+}
+
+.heading {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 0;
+}
 /* Add more styling as needed */

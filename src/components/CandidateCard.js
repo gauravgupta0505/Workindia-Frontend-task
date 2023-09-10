@@ -1,21 +1,24 @@
 import React from "react";
-
+import bullet from "../assets/bullet.png";
+import "../App.css";
 function CandidateCard({ candidate }) {
   return (
     <div className="candidate-card">
-      <div className="bullet-point">
-        <img
-          src="bullet-point-image.png"
-          alt="Bullet Point"
-          width="18"
-          height="18"
-        />
-      </div>
       <div className="candidate-details">
-        <p>{candidate.name}</p>
-        <p>Last Updated: {candidate.last_updated_at}</p>
-        <p>Location: {candidate.location}</p>
-        <p>Gender: {candidate.gender}</p>
+        <p className="heading">{candidate.name}</p>
+
+        <div className="flex">
+          <img src={bullet} alt="Bullet Point" width="18" height="18" />
+          <p style={{ margin: "5px" }}>{candidate.last_updated_at}</p>
+        </div>
+        <div className="flex">
+          <img src={bullet} alt="Bullet Point" width="18" height="18" />
+          <p style={{ margin: "5px" }}>{candidate.location}</p>
+        </div>
+        <div className="flex">
+          <img src={bullet} alt="Bullet Point" width="18" height="18" />
+          <p style={{ margin: "5px" }}>{candidate.gender}</p>
+        </div>
       </div>
     </div>
   );
